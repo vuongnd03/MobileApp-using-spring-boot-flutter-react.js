@@ -5,16 +5,19 @@
 - 🚀 **Spring Boot**: Backend API, xử lý logic và kết nối cơ sở dữ liệu
 
 ## 🔧 Các chức năng chính
-- Đăng ký / Đăng nhập người dùng (xác thực bằng JWT)
-- Quản lý sản phẩm, giỏ hàng, và đơn hàng
-- Giao tiếp an toàn giữa frontend và backend
-- Giao diện quản trị (admin dashboard) để thêm, sửa, xoá sản phẩm
+- Đăng ký / Đăng nhập người dùng (xác thực bằng JWT) và lấy lại mật khẩu qua email.
+- Quản lý sản phẩm, giỏ hàng.
+- Tìm kiếm sản phẩm theo real-time.
+- sắp xếp sản phẩm theo mức giá.
+- hiển thị sản phẩm và các hình ảnh phụ theo loại.
+- Giao tiếp an toàn giữa frontend và backend.
+- Giao diện quản trị (admin dashboard) để thêm, sửa, xoá sản phẩm.
 
 ## 🛠️ Công nghệ sử dụng
 - Ngôn ngữ: Java, Dart, JavaScript
 - Backend: Spring Boot, JPA, Hibernate
 - Frontend: Flutter, React.js
-- Cơ sở dữ liệu: MySQL hoặc PostgreSQL
+- Cơ sở dữ liệu: SQL server.
 - Kiến trúc: RESTful API,mvc + Clean Architecture
 
 ## 🚀 Cách chạy dự án
